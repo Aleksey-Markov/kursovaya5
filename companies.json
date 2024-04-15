@@ -1,0 +1,141 @@
+[
+    {
+        "id": "5680840",
+        "name": "AFI",
+        "url": "https://api.hh.ru/employers/5680840",
+        "alternate_url": "https://hh.ru/employer/5680840",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/1114255.png",
+            "240": "https://img.hhcdn.ru/employer-logo/6077618.png",
+            "90": "https://img.hhcdn.ru/employer-logo/6077617.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5680840",
+        "open_vacancies": 2
+    },
+    {
+        "id": "10861058",
+        "name": "AgileFluent",
+        "url": "https://api.hh.ru/employers/10861058",
+        "alternate_url": "https://hh.ru/employer/10861058",
+        "logo_urls": null,
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10861058",
+        "open_vacancies": 7
+    },
+    {
+        "id": "3014324",
+        "name": "AIM CLO",
+        "url": "https://api.hh.ru/employers/3014324",
+        "alternate_url": "https://hh.ru/employer/3014324",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/928486.jpeg",
+            "240": "https://img.hhcdn.ru/employer-logo/4154505.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo/4154504.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3014324",
+        "open_vacancies": 7
+    },
+    {
+        "id": "4930598",
+        "name": "Alexander Bogdanov",
+        "url": "https://api.hh.ru/employers/4930598",
+        "alternate_url": "https://hh.ru/employer/4930598",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/902826.jpg",
+            "240": "https://img.hhcdn.ru/employer-logo/4051992.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo/4051991.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4930598",
+        "open_vacancies": 1
+    },
+    {
+        "id": "5983847",
+        "name": "Alex Staff Agency",
+        "url": "https://api.hh.ru/employers/5983847",
+        "alternate_url": "https://hh.ru/employer/5983847",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/939766.png",
+            "240": "https://img.hhcdn.ru/employer-logo/4199609.png",
+            "90": "https://img.hhcdn.ru/employer-logo/4199608.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5983847",
+        "open_vacancies": 8
+    },
+    {
+        "id": "5301546",
+        "name": "Alina Popova",
+        "url": "https://api.hh.ru/employers/5301546",
+        "alternate_url": "https://hh.ru/employer/5301546",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/865173.jpg",
+            "240": "https://img.hhcdn.ru/employer-logo/3901568.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo/3901567.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5301546",
+        "open_vacancies": 1
+    },
+    {
+        "id": "10491387",
+        "name": "All For Nails",
+        "url": "https://api.hh.ru/employers/10491387",
+        "alternate_url": "https://hh.ru/employer/10491387",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/1258868.png",
+            "240": "https://img.hhcdn.ru/employer-logo/6655803.png",
+            "90": "https://img.hhcdn.ru/employer-logo/6655802.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10491387",
+        "open_vacancies": 1
+    },
+    {
+        "id": "3019335",
+        "name": "ALLGLASS",
+        "url": "https://api.hh.ru/employers/3019335",
+        "alternate_url": "https://hh.ru/employer/3019335",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/926585.png",
+            "240": "https://img.hhcdn.ru/employer-logo/4146901.png",
+            "90": "https://img.hhcdn.ru/employer-logo/4146900.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3019335",
+        "open_vacancies": 1
+    },
+    {
+        "id": "6022683",
+        "name": "Alpha.Tattoo",
+        "url": "https://api.hh.ru/employers/6022683",
+        "alternate_url": "https://hh.ru/employer/6022683",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/938477.jpeg",
+            "240": "https://img.hhcdn.ru/employer-logo/4194453.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo/4194452.jpeg"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6022683",
+        "open_vacancies": 2
+    },
+    {
+        "id": "2856057",
+        "name": "ALTERRA GROUP",
+        "url": "https://api.hh.ru/employers/2856057",
+        "alternate_url": "https://hh.ru/employer/2856057",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/1254969.png",
+            "240": "https://img.hhcdn.ru/employer-logo/6640306.png",
+            "90": "https://img.hhcdn.ru/employer-logo/6640305.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2856057",
+        "open_vacancies": 3
+    },
+    {
+        "id": "4262319",
+        "name": "ALTWOOD",
+        "url": "https://api.hh.ru/employers/4262319",
+        "alternate_url": "https://hh.ru/employer/4262319",
+        "logo_urls": {
+            "original": "https://img.hhcdn.ru/employer-logo-original/936040.png",
+            "240": "https://img.hhcdn.ru/employer-logo/4184709.png",
+            "90": "https://img.hhcdn.ru/employer-logo/4184708.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4262319",
+        "open_vacancies": 1
+    }
+]
