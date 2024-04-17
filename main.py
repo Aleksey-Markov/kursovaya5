@@ -71,7 +71,6 @@ def generate_db(companies_list):
             vacancies.append(vac['vacancies_url'])
     while num != 11:
         res = requests.get(vacancies[num]).json()['items']
-        print(res)
         for vac in res:
             for names, company in zip(range(len((vac))), company_id):
                 company_id = vac['employer']['id']
