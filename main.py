@@ -58,8 +58,8 @@ def generate_db(companies_list):
     cur.execute(
         '''
         CREATE TABLE vacancies(vacancy_id SERIAL PRIMARY KEY, company_id int NOT NULL ,
-         vacancy_name varchar(100) NOT NULL, vacancy_salary varchar(25), vacancy_city varchar(25),
-          FOREIGN KEY (company_id) REFERENCES companies(company_id))
+        vacancy_name varchar(100) NOT NULL, vacancy_salary varchar(25), vacancy_city varchar(25), vacancy_link text,
+        FOREIGN KEY (company_id) REFERENCES companies(company_id))
          '''
     )
 
@@ -80,9 +80,11 @@ def generate_db(companies_list):
                 else:
                     vacs_salary = f"{vac['salary']['from']} {vac['salary']['currency']}"
                 vacs_city = vac['area']['name']
+                vacs_link = vac['alternate_url']
             cur.execute('''
-            INSERT INTO vacancies(company_id, vacancy_name, vacancy_salary, vacancy_city) VALUES (%s, %s, %s, %s)''',
-            (company_id, vacs_name, vacs_salary, vacs_city))
+            INSERT INTO vacancies(company_id, vacancy_name, vacancy_salary, vacancy_city, vacancy_link)
+            VALUES (%s, %s, %s, %s, %s)''',
+            (company_id, vacs_name, vacs_salary, vacs_city, vacs_link))
         num += 1
 
     conn.commit()
