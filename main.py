@@ -75,7 +75,10 @@ def generate_db(companies_list):
             for names, company in zip(range(len((vac))), company_id):
                 company_id = vac['employer']['id']
                 vacs_name = vac['name']
-                vacs_salary = f"{vac['salary']['from']} {vac['salary']['currency']}"
+                if vac['salary']['from'] == None:
+                    vacs_salary = 'Зарплата не указана'
+                else:
+                    vacs_salary = f"{vac['salary']['from']} {vac['salary']['currency']}"
                 vacs_city = vac['area']['name']
             cur.execute('''
             INSERT INTO vacancies(company_id, vacancy_name, vacancy_salary, vacancy_city) VALUES (%s, %s, %s, %s)''',
