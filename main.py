@@ -35,6 +35,11 @@ def save_companies_to_json(companies_list):
 
 
 def generate_db(companies_list):
+    '''
+    создание и заполнение таблиц базы данных
+    :param companies_list:
+    :return:
+    '''
     conn = psycopg2.connect(
             host='localhost',
             database='headhunter',
@@ -58,7 +63,7 @@ def generate_db(companies_list):
     cur.execute(
         '''
         CREATE TABLE vacancies(vacancy_id SERIAL PRIMARY KEY, company_id int NOT NULL ,
-        vacancy_name varchar(100) NOT NULL, vacancy_salary varchar(25), vacancy_city varchar(25), vacancy_link text,
+        vacancy_name varchar(100) NOT NULL, vacancy_salary int, vacancy_city varchar(25), vacancy_link text,
         FOREIGN KEY (company_id) REFERENCES companies(company_id))
          '''
     )
@@ -76,9 +81,9 @@ def generate_db(companies_list):
                 company_id = vac['employer']['id']
                 vacs_name = vac['name']
                 if vac['salary']['from'] == None:
-                    vacs_salary = 'Зарплата не указана'
+                    vacs_salary = None
                 else:
-                    vacs_salary = f"{vac['salary']['from']} {vac['salary']['currency']}"
+                    vacs_salary = f"{vac['salary']['from']}"
                 vacs_city = vac['area']['name']
                 vacs_link = vac['alternate_url']
             cur.execute('''
